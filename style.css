@@ -1,0 +1,87 @@
+/***************************************
+   Default Styles
+************************************** */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 'Merriweather', Helvetica, Arial, sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+#container {
+  font-size: 1.2em;
+  margin: 10px 2em;
+}
+
+.hide {
+  display: none;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 34px;
+  margin-bottom: .5em;
+  font-weight: 700;
+  cursor: pointer;
+}
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+a {
+  color: #06581f;
+}
+
+.yellow-bg {
+  background-color: #f1c40f;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out;
+
+}
+
+.speech {
+  font-family: 'Merriweather', 'georgia', serif;
+  line-height: 26px;
+  font-size: 17px;
+}
+
+.large-text {
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.small-text {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/***************************************
+   Chapter Styles
+************************************** */
+
+#switcher {
+  width: 300px;
+  padding: .5em;
+  border: 1px solid #777;
+}
+.label {
+  font-size: 12px;
+  font-family: 'helvetica', sans-serif;
+  width: 130px;
+  margin: .5em 0;
+  cursor: pointer;
+}
